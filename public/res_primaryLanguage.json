@@ -1,14 +1,14 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
-    },
+  "basic_info": {
+    "description_header": "Hello there!",
+    "description": "👋 I'm Onyeibor Samuel, a passionate Fullstack Software Engineer who loves crafting elegant, scalable solutions using Python, React, and cloud technologies. I thrive on turning complex problems into clean, user-friendly applications. When I'm not coding, you'll find me exploring new tech trends, mentoring fellow developers, or experimenting with containerization and DevOps tools like Docker and AWS ...or chillin. This portfolio is a reflection of my journey, skills, and projects. Feel free to explore and reach out if you want to collaborate or chat about tech! 🚀",
+    "section_name": {
+      "about": "About Me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
     "projects": [
       {
         "title": "Animal Shelter",

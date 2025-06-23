@@ -1,68 +1,66 @@
 {
-    "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
-        }
-      ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Onyeibor Samuel",
+    "titles": [
+      "Fullstack Software Engineer",
+      "Python Backend Developer",
+      "Dev Team Lead"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/Sam-3l",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "image": "profileImg.jpg"
+  },
+  "skills": {
+    "categories": [
+      {
+        "category": "Frontend",
+        "technologies": [
+          { "name": "React", "class": "devicon-react-original", "level": 85 },
+          { "name": "JavaScript", "class": "devicon-javascript-plain", "level": 90 },
+          { "name": "HTML5", "class": "devicon-html5-plain", "level": 95 },
+          { "name": "CSS3 / Sass", "class": "devicon-sass-original", "level": 85 },
+          { "name": "Bootstrap", "class": "devicon-bootstrap-plain", "level": 80 }
+        ]
+      },
+      {
+        "category": "Backend & APIs",
+        "technologies": [
+          { "name": "Python", "class": "devicon-python-plain", "level": 95 },
+          { "name": "Flask", "class": "devicon-flask-original", "level": 90 },
+          { "name": "Django", "class": "devicon-django-plain", "level": 85 },
+          { "name": "Django REST Framework", "class": "devicon-python-plain", "level": 85 },
+          { "name": "Node.js", "class": "devicon-nodejs-plain", "level": 60 }
+        ]
+      },
+      {
+        "category": "Databases & Cache",
+        "technologies": [
+          { "name": "PostgreSQL", "class": "devicon-postgresql-plain", "level": 85 },
+          { "name": "MySQL", "class": "devicon-mysql-plain", "level": 75 },
+          { "name": "Redis", "class": "devicon-redis-plain", "level": 70 },
+          { "name": "NoSQL (MongoDB)", "class": "devicon-mongodb-plain", "level": 70 }
+        ]
+      },
+      {
+        "category": "DevOps & Tools",
+        "technologies": [
+          { "name": "Docker", "class": "devicon-docker-plain", "level": 85 },
+          { "name": "AWS", "class": "devicon-amazonwebservices-plain", "level": 75 },
+          { "name": "Git", "class": "devicon-git-plain", "level": 90 },
+          { "name": "CI/CD", "class": "fas fa-cogs", "level": 70 },
+          { "name": "Linux / UNIX", "class": "devicon-linux-plain", "level": 85 }
+        ]
+      }
+    ]
   }
+}
