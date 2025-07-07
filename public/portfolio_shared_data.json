@@ -13,9 +13,9 @@
         "class": "fab fa-github"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com",
-        "class": "fab fa-instagram"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/samuel-onyeibor-b80866283/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "profileImg.jpg"

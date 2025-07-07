@@ -1,116 +1,159 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Yo!",
+    "description": "Większość inżynierów debugguje błędy. Ja debugguję chaos... serio. Jestem Onyeibor Samuel, fullstack developer, który wprowadza porządek w złożone systemy przy użyciu Pythona, Reacta i technologii chmurowych. Tworzę narzędzia, które naprawdę mają znaczenie – nie tylko do portfolio. Wierzę, że czysty kod to forma szacunku: dla użytkowników, zespołu i przyszłości. Tworzę skalowalne oprogramowanie, które mimo złożonego backendu wydaje się proste. Nie tylko rozwiązuję problemy... sprawiam, że znikają. Choć już stworzyłem coś, co ma znaczenie, jeszcze bardziej ekscytuje mnie to, czego jeszcze nie umiem. Obecnie jestem na trzecim roku Elektrotechniki i Elektroniki – głodny rozwoju, uczący się i gotów zapracować na swoje miejsce, commit po commicie.",
+    "section_name": {
+      "about": "O mnie",
+      "projects": "Projekty",
+      "skills": "Umiejętności",
+      "experience": "Doświadczenie"
+    }
+  },
+  "projects": [
+    {
+      "title": "TaskFlow",
+      "startDate": "2024",
+      "description": "TaskFlow to fullstackowa platforma do zarządzania zadaniami i projektami z funkcjami opartymi na AI. Umożliwia tworzenie zadań z podzadaniami, ustawianie terminów, śledzenie postępów za pomocą wykresów, zarządzanie członkami projektu (z podziałem ról) oraz interakcje przez tablice Kanban i dyskusje. Zawiera także generowanie podziału zadań przez AI, powiadomienia użytkowników, głosowanie na projekty i kontrolę widoczności (prywatne/publiczne). Zbudowana z myślą o skalowalności i wdrożona na AWS.",
+      "images": [
+        "images/portfolio/taskflow/p1.png",
+        "images/portfolio/taskflow/p2.gif"
+      ],
+      "url": "https://ny55wzfkbb.execute-api.us-east-1.amazonaws.com",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python / Flask"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain",
+          "name": "AWS"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "Szablony Jinja"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS / Bootstrap"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Contention",
+      "startDate": "2025",
+      "description": "Contention to partner do debat oparty na AI, który dyskutuje, zadaje pytania i rzuca wyzwania – nie tylko by wygrać, ale by wyostrzyć Twój sposób myślenia. Skupia się na krytycznym myśleniu i zmianie perspektywy. Obsługuje różne tryby debaty (luźne, formalne, adwokat diabła), konfigurowalne osobowości i analizę logiki w czasie rzeczywistym. Zaprojektowałem go jako coś więcej niż chatbot – to sparingpartner dla Twojego umysłu.",
+      "images": [
+        "images/portfolio/contention/p1.avif",
+        "images/portfolio/contention/p2.jpg"
+      ],
+      "url": "https://github.com/Sam-3l/contention-api",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-django-plain",
+          "name": "Django REST"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain",
+          "name": "AWS"
+        },
+        {
+          "class": "custom-langchain-icon",
+          "name": "LangChain"
+        }
+      ]
+    },
+    {
+      "title": "Plated",
+      "startDate": "2024",
+      "description": "Plated to narzędzie do planowania posiłków i przepisów, które pomaga użytkownikom w prosty sposób organizować życie kulinarne – od planowania codziennych posiłków po automatyczne generowanie list zakupów. Zmniejsza zmęczenie podejmowaniem decyzji, sugerując posiłki na podstawie preferencji, celów żywieniowych lub zawartości lodówki. To jak osobisty asystent kuchenny, który planuje, dostosowuje się i upraszcza pytanie „co dziś na obiad?”.",
+      "images": [
+        "images/portfolio/plated/p1.png",
+        "images/portfolio/plated/p2.png"
+      ],
+      "url": "https://github.com/Sam-3l/plated",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-django-plain",
+          "name": "Django REST"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "U-Recover",
+      "title": "Główny programista backendu",
+      "years": "04.2024 - 12.2024",
+      "mainTech": [
+        "Django Rest Framework"
+      ],
+      "technologies": [
+        "REST API",
+        "Django",
+        "Python",
+        "MySQL",
+        "PostgreSQL",
+        "Autoryzacja",
+        "API",
+        "Dokumentacja",
+        "Integracja z frontendem"
+      ]
+    },
+    {
+      "company": "De Collaborators",
+      "title": "Programista backendu",
+      "years": "08.2023 - 11.2023",
+      "mainTech": [
+        "Django 7/8"
+      ],
+      "technologies": [
+        "Django",
+        "Redis",
+        "Python",
+        "Swagger",
+        "RDMS",
+        "Cache'owanie bazy danych"
+      ]
+    }
+  ]
+}

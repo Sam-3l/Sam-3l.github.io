@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Yo!",
-    "description": "Most engineers debug errors. I debug chaos. I’m Onyeibor Samuel, a fullstack developer who brings clarity to messy systems using Python, React, and cloud tech. I’ve built tools that power real lives, not just portfolios and I believe clean code is a form of respect: to users, to teammates, and to the future. I craft scalable software that feels simple, no matter how complex the backend. I don’t just solve problems.., I make them disappear. And while I’ve already shipped things that matter, I’m even more excited by what I haven’t learned yet. I'm currently advancing into my third year of Electrical and Electronics Engineering, I’m hungry to grow, obsessed with learning, and ready to earn my place, one commit at a time.",
+    "description": "Most engineers debug errors. I debug chaos ..lol, real though. I’m Onyeibor Samuel, a fullstack developer who brings clarity to messy systems using Python, React, and cloud tech. I’ve built tools that power real lives, not just portfolios and I believe clean code is a form of respect: to users, to teammates, and to the future. I craft scalable software that feels simple, no matter how complex the backend. I don’t just solve problems.., I make them disappear. And while I’ve already shipped things that matter, I’m even more excited by what I haven’t learned yet. I'm currently advancing into my third year of Electrical and Electronics Engineering, hungry to grow, learning, and ready to earn my place, one commit at a time.",
     "section_name": {
       "about": "About Me",
       "projects": "Projects",
@@ -11,38 +11,50 @@
   },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "TaskFlow",
+        "startDate": "2024",
+        "description": "A fullstack task and project management platform with AI-powered features. TaskFlow lets users create tasks with subtasks, set deadlines, track progress with charts, manage projects with role-based members, and interact via Kanban boards and discussions. It also includes AI-generated task breakdowns, user notifications, project upvotes, and flexible visibility controls (private/public). Built for scale and deployed on AWS.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/taskflow/p1.png",
+          "images/portfolio/taskflow/p2.gif"
         ],
-        "url": "",
+        "url": "https://ny55wzfkbb.execute-api.us-east-1.amazonaws.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python / Flask"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "Jinja Templates"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS / Bootstrap"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Contention",
+        "startDate": "2025",
+        "description": "Contention is an AI debate partner that argues, questions, and challenges not just to win, but to sharpen how you think. Built with a focus on critical thinking and perspective-switching, it supports multiple debate modes (casual, formal, devil’s advocate), customizable personalities, and real-time logic analysis. I designed it to be more than a chatbot, it’s a sparring partner for your brain.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/contention/p1.avif",
+          "images/portfolio/contention/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/Sam-3l/contention-api",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -51,67 +63,96 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django REST"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          },
+          {
+            "class": "custom-langchain-icon",
+            "name": "LangChain"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Plated",
+        "startDate": "2024",
+        "description": "Plated is a recipe and smart meal planning tool that helps users effortlessly organize their food life and browse recipes from daily meal scheduling to automated grocery list generation. I designed it to reduce decision fatigue, using AI to suggest meals based on preferences, nutrition goals, or just what’s left in your fridge. It’s like a personal meal assistant that plans, adapts, and simplifies what’s for dinner.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/plated/p1.png",
+          "images/portfolio/plated/p2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/Sam-3l/plated",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-django-plain",
+            "name": "Django REST"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "U-Recover",
+        "title": "Lead Backend Developer",
+        "years": "04.2024 - 12.2024",
         "mainTech": [
-          "Angular 8/9/10"
+          "Django Rest Framework"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Django",
+          "Python",
+          "MySQL",
+          "PostgreSQL",
+          "Auth",
+          "API",
+          "Docs",
+          "Frontend Integration"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "De Collaborators",
+        "title": "Backend Developer",
+        "years": "08.2023 - 11.2023",
         "mainTech": [
-          "Angular 7/8"
+          "Django 7/8"
         ],
         "technologies": [
-          "RxJS",
           "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Redis",
+          "Python",
+          "Swagger",
+          "RDMS",
+          "Database caching"
         ]
       }
     ]

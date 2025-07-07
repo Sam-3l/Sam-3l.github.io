@@ -426,3 +426,28 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
+
+.my-resume-section{
+	background-color: #e9d5a1;
+}
+
+.custom-resume-btn {
+	color: #353239;
+	border: 2px solid #353239;
+	padding: 15px 150px;
+	font-size: 1.8rem;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	display: inline-block;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+  
+.custom-resume-btn:hover {
+	background-color: #353239;
+	color: #fff;
+	transform: scale(1.05);
+	text-decoration: none;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2)
+}

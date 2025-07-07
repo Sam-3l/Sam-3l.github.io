@@ -83,6 +83,18 @@ class App extends Component {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
+
+        <section className="text-center my-resume-section">
+          <a
+            href="/cv/Onyeibor-Samuel.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-resume-btn"
+          >
+            📄 View Resume
+          </a>
+        </section>
+
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
