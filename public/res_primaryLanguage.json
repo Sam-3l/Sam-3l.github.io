@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Yo!",
-    "description": "Most engineers debug errors. I debug chaos ..lol, real though. I’m Onyeibor Samuel, a fullstack developer who brings clarity to messy systems using Python, React, and cloud tech. I’ve built tools that power real lives, not just portfolios and I believe clean code is a form of respect: to users, to teammates, and to the future. I craft scalable software that feels simple, no matter how complex the backend. I don’t just solve problems.., I make them disappear. And while I’ve already shipped things that matter, I’m even more excited by what I haven’t learned yet. I'm currently advancing into my third year of Electrical and Electronics Engineering, hungry to grow, learning, and ready to earn my place, one commit at a time.",
+    "description": "Most engineers debug errors. I debug chaos ..lol, real though. I’m Onyeibor Samuel, a backend-focused full-stack developer who brings clarity to messy systems using TypeScript, Python, and cloud tech. I’ve built and shipped live products that real people use every day, not just portfolio pieces, and I believe clean code is a form of respect: to users, to teammates, and to the future. I craft scalable software that feels simple, no matter how complex the backend. I don’t just solve problems.., I make them disappear. And while I’ve already shipped things that matter, I’m even more excited by what I haven’t learned yet. I'm currently advancing into my third year of Electrical and Electronics Engineering, hungry to grow, learning, and ready to earn my place, one commit at a time.",
     "section_name": {
       "about": "About Me",
       "projects": "Projects",
@@ -9,151 +9,221 @@
       "experience": "Experience"
     }
   },
-    "projects": [
-      {
-        "title": "TaskFlow",
-        "startDate": "2024",
-        "description": "A fullstack task and project management platform with AI-powered features. TaskFlow lets users create tasks with subtasks, set deadlines, track progress with charts, manage projects with role-based members, and interact via Kanban boards and discussions. It also includes AI-generated task breakdowns, user notifications, project upvotes, and flexible visibility controls (private/public). Built for scale and deployed on AWS.",
-        "images": [
-          "images/portfolio/taskflow/p1.png",
-          "images/portfolio/taskflow/p2.gif"
-        ],
-        "url": "https://ny55wzfkbb.execute-api.us-east-1.amazonaws.com",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python / Flask"
-          },
-          {
-            "class": "devicon-postgresql-plain",
-            "name": "PostgreSQL"
-          },
-          {
-            "class": "devicon-docker-plain",
-            "name": "Docker"
-          },
-          {
-            "class": "devicon-amazonwebservices-plain",
-            "name": "AWS"
-          },
-          {
-            "class": "devicon-html5-plain",
-            "name": "Jinja Templates"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS / Bootstrap"
-          }
-        ]
-      },
-      {
-        "title": "Contention",
-        "startDate": "2025",
-        "description": "Contention is an AI debate partner that argues, questions, and challenges not just to win, but to sharpen how you think. Built with a focus on critical thinking and perspective-switching, it supports multiple debate modes (casual, formal, devil’s advocate), customizable personalities, and real-time logic analysis. I designed it to be more than a chatbot, it’s a sparring partner for your brain.",
-        "images": [
-          "images/portfolio/contention/p1.avif",
-          "images/portfolio/contention/p2.jpg"
-        ],
-        "url": "https://github.com/Sam-3l/contention-api",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-django-plain",
-            "name": "Django REST"
-          },
-          {
-            "class": "devicon-docker-plain",
-            "name": "Docker"
-          },
-          {
-            "class": "devicon-postgresql-plain",
-            "name": "PostgreSQL"
-          },
-          {
-            "class": "devicon-amazonwebservices-plain",
-            "name": "AWS"
-          },
-          {
-            "class": "custom-langchain-icon",
-            "name": "LangChain"
-          }
-        ]
-      },
-      {
-        "title": "Plated",
-        "startDate": "2024",
-        "description": "Plated is a recipe and smart meal planning tool that helps users effortlessly organize their food life and browse recipes from daily meal scheduling to automated grocery list generation. I designed it to reduce decision fatigue, using AI to suggest meals based on preferences, nutrition goals, or just what’s left in your fridge. It’s like a personal meal assistant that plans, adapts, and simplifies what’s for dinner.",
-        "images": [
-          "images/portfolio/plated/p1.png",
-          "images/portfolio/plated/p2.png"
-        ],
-        "url": "https://github.com/Sam-3l/plated",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-django-plain",
-            "name": "Django REST"
-          },
-          {
-            "class": "devicon-postgresql-plain",
-            "name": "PostgreSQL"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "U-Recover",
-        "title": "Lead Backend Developer",
-        "years": "04.2024 - 12.2024",
-        "mainTech": [
-          "Django Rest Framework"
-        ],
-        "technologies": [
-          "REST API",
-          "Django",
-          "Python",
-          "MySQL",
-          "PostgreSQL",
-          "Auth",
-          "API",
-          "Docs",
-          "Frontend Integration"
-        ]
-      },
-      {
-        "company": "De Collaborators",
-        "title": "Backend Developer",
-        "years": "08.2023 - 11.2023",
-        "mainTech": [
-          "Django 7/8"
-        ],
-        "technologies": [
-          "Django",
-          "Redis",
-          "Python",
-          "Swagger",
-          "RDMS",
-          "Database caching"
-        ]
-      }
-    ]
-  }
+  "projects": [
+    {
+      "title": "Sunjokia Everafter",
+      "startDate": "2026",
+      "description": "Sunjokia Everafter is a live matchmaking and connection platform with 1,000+ active users across the US, UK, and other countries. I designed, built, and deployed the entire backend from the ground up: profiles, discovery and matching, messaging, notifications, and an admin panel. Along the way I tracked down and fixed a nasty email-deliverability bug that was sending verification and password-reset emails straight to spam, rebuilt the image-upload pipeline after a Firebase Storage token issue broke profile photos for everyone, and built GPS-based location capture with reverse geocoding to power region-aware discovery. I also rewrote a permission component as a state machine to fix gnarly Safari/iOS edge cases and shipped a string of admin panel improvements.",
+      "images": [
+        "images/portfolio/sunjokia/shot1.jpg",
+        "images/portfolio/sunjokia/cover.svg"
+      ],
+      "url": "https://sunjokiaeverafter.com",
+      "technologies": [
+        { "class": "devicon-typescript-plain", "name": "TypeScript" },
+        { "class": "devicon-nodejs-plain", "name": "Node.js" },
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-firebase-plain", "name": "Firebase" }
+      ]
+    },
+    {
+      "title": "TrueTrader",
+      "startDate": "2025",
+      "description": "TrueTrader is an AI-powered trading journal and analytics platform. I joined mid-build to take over backend, DevOps, and QA on a FastAPI/PostgreSQL/Docker stack hosted on AWS. The most interesting problem: integrating with cTrader's Protobuf-based Open API over WebSockets, including a multi-step authentication flow and symbol-ID-to-name resolution, to pull live trades, journals, and account data where a REST-based approach wasn't working. I also designed and built a complete broker file upload and parsing system supporting MT4, MT5, and other trade-history formats, normalizing wildly different column structures so uploaded trades flow straight into the platform's analytics, AI insights, and chat features. On top of that: full DevSecOps on the production AWS server, broker-connection bug fixes, and QA across the platform.",
+      "images": [
+        "images/portfolio/truetrader/shot1.jpg",
+        "images/portfolio/truetrader/shot2.jpg",
+        "images/portfolio/truetrader/shot3.jpg",
+        "images/portfolio/truetrader/cover.svg"
+      ],
+      "url": "https://truetrader.pro",
+      "technologies": [
+        { "class": "devicon-python-plain", "name": "Python" },
+        { "class": "devicon-fastapi-plain", "name": "FastAPI" },
+        { "class": "devicon-postgresql-plain", "name": "PostgreSQL" },
+        { "class": "devicon-docker-plain", "name": "Docker" },
+        { "class": "devicon-amazonwebservices-plain", "name": "AWS" }
+      ]
+    },
+    {
+      "title": "IkonetU",
+      "startDate": "2025",
+      "description": "IkonetU connects startup founders with investors. I designed and built the platform end to end across three codebases: a Django REST Framework backend, a TypeScript/React admin dashboard, and a TypeScript/Express + PostgreSQL (Drizzle ORM) web application. Founders, investors, and admins all get real-time messaging and notifications via WebSockets (Django Channels and Node ws), and there's a media upload/processing pipeline built with FFmpeg for pitch video content. Authentication and role-based access run on JWT/Passport. I deployed and manage the whole stack on Render.",
+      "images": [
+        "images/portfolio/ikonetu/shot1.jpg",
+        "images/portfolio/ikonetu/shot2.jpg",
+        "images/portfolio/ikonetu/cover.svg"
+      ],
+      "url": "https://ikonetu.com",
+      "technologies": [
+        { "class": "devicon-django-plain", "name": "Django REST" },
+        { "class": "devicon-typescript-plain", "name": "TypeScript" },
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-express-original", "name": "Express" },
+        { "class": "devicon-postgresql-plain", "name": "PostgreSQL" }
+      ]
+    },
+    {
+      "title": "Bitexly",
+      "startDate": "2025",
+      "description": "Bitexly is a full-stack cryptocurrency exchange platform that I designed, built, and hosted from scratch, integrating 5 third-party exchange and on-ramp providers (MoonPay, SimpleSwap, LetsExchange, Exolix, and FinchPay) into a single unified backend. The Django REST Framework backend handles JWT authentication, Stripe payments, Cloudinary media, and Redis-backed real-time features via Django Channels, with a React/Vite frontend on top. I set up and manage deployment on a VPS with Nginx and Gunicorn.",
+      "images": [
+        "images/portfolio/bitexly/shot1.jpg",
+        "images/portfolio/bitexly/shot2.jpg",
+        "images/portfolio/bitexly/cover.svg"
+      ],
+      "url": "https://bitexly.com",
+      "technologies": [
+        { "class": "devicon-django-plain", "name": "Django REST" },
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-postgresql-plain", "name": "PostgreSQL" },
+        { "class": "devicon-redis-plain", "name": "Redis" }
+      ]
+    },
+    {
+      "title": "Matchki",
+      "startDate": "2025",
+      "description": "Matchki is a real-time chat platform built for an international client as a TypeScript monorepo: a Next.js frontend, an Express API, and Prisma over PostgreSQL, with real-time messaging powered by Socket.io. Authentication runs on JWT and payments on Stripe. I built and deployed the whole thing on Render.",
+      "images": [
+        "images/portfolio/matchki/shot1.jpg",
+        "images/portfolio/matchki/shot2.jpg",
+        "images/portfolio/matchki/cover.svg"
+      ],
+      "url": "https://github.com/Sam-3l",
+      "technologies": [
+        { "class": "devicon-typescript-plain", "name": "TypeScript" },
+        { "class": "devicon-nextjs-original-wordmark", "name": "Next.js" },
+        { "class": "devicon-express-original", "name": "Express" },
+        { "class": "devicon-postgresql-plain", "name": "PostgreSQL" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Sunjokia Everafter",
+      "title": "Backend Developer & DevOps",
+      "years": "03.2026 - 05.2026",
+      "mainTech": [
+        "TypeScript / Node.js"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "Firebase",
+        "REST API",
+        "DevOps"
+      ]
+    },
+    {
+      "company": "IkonetU",
+      "title": "Full-Stack Developer",
+      "years": "12.2025 - 03.2026",
+      "mainTech": [
+        "Express / Drizzle ORM"
+      ],
+      "technologies": [
+        "Django REST",
+        "TypeScript",
+        "React",
+        "Express",
+        "Drizzle ORM",
+        "PostgreSQL",
+        "WebSockets"
+      ]
+    },
+    {
+      "company": "TrueTrader",
+      "title": "Backend Developer, DevOps & QA",
+      "years": "10.2025 - 04.2026",
+      "mainTech": [
+        "FastAPI / Python"
+      ],
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "WebSockets",
+        "DevSecOps"
+      ]
+    },
+    {
+      "company": "Bitexly",
+      "title": "Full-Stack Developer & DevOps",
+      "years": "10.2025 - 02.2026",
+      "mainTech": [
+        "Django REST Framework"
+      ],
+      "technologies": [
+        "Django",
+        "React",
+        "PostgreSQL",
+        "Redis",
+        "Stripe",
+        "Nginx"
+      ]
+    },
+    {
+      "company": "Aevo Technologies",
+      "title": "Backend Developer & DevOps (Agency)",
+      "years": "10.2025 - Present",
+      "mainTech": [
+        "FastAPI / AWS"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "AWS",
+        "Docker",
+        "DevOps"
+      ]
+    },
+    {
+      "company": "Stones Technologies",
+      "title": "Software Developer (Agency)",
+      "years": "09.2025 - Present",
+      "mainTech": [
+        "Full-Stack Development"
+      ],
+      "technologies": [
+        "Backend",
+        "Full-Stack",
+        "Client Projects"
+      ]
+    },
+    {
+      "company": "U-Recover",
+      "title": "Lead Backend Developer",
+      "years": "04.2024 - 12.2024",
+      "mainTech": [
+        "Django Rest Framework"
+      ],
+      "technologies": [
+        "REST API",
+        "Django",
+        "Python",
+        "MySQL",
+        "PostgreSQL",
+        "Auth",
+        "API Docs"
+      ]
+    },
+    {
+      "company": "De Collaborators",
+      "title": "Backend Developer",
+      "years": "08.2023 - 11.2023",
+      "mainTech": [
+        "Django"
+      ],
+      "technologies": [
+        "Django",
+        "Redis",
+        "Python",
+        "Swagger",
+        "Database Caching"
+      ]
+    }
+  ]
+}

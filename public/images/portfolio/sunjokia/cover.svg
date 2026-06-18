@@ -1,0 +1,31 @@
+<svg viewBox="0 0 700 394" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <linearGradient id="sjBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1942"/>
+      <stop offset="100%" stop-color="#2E1024"/>
+    </linearGradient>
+    <radialGradient id="sjGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FF6B6B" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FF6B6B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="394" fill="url(#sjBg)"/>
+  <rect width="700" height="394" fill="url(#sjGlow)"/>
+
+  <!-- orbiting connection rings -->
+  <circle cx="230" cy="150" r="70" fill="none" stroke="#FF6B6B" stroke-width="2" opacity="0.55"/>
+  <circle cx="330" cy="190" r="70" fill="none" stroke="#FFD3B0" stroke-width="2" opacity="0.55"/>
+  <circle cx="280" cy="170" r="9" fill="#FF6B6B"/>
+  <circle cx="380" cy="210" r="9" fill="#FFD3B0"/>
+  <line x1="280" y1="170" x2="380" y2="210" stroke="#FFF8F0" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+
+  <!-- small scattered nodes -->
+  <circle cx="120" cy="280" r="5" fill="#FFD3B0" opacity="0.7"/>
+  <circle cx="600" cy="100" r="5" fill="#FF6B6B" opacity="0.7"/>
+  <circle cx="560" cy="300" r="4" fill="#FFF8F0" opacity="0.5"/>
+  <circle cx="80" cy="90" r="4" fill="#FFF8F0" opacity="0.5"/>
+
+  <text x="60" y="270" fill="#FFF8F0" font-size="44" font-weight="700" letter-spacing="1">Sunjokia</text>
+  <text x="60" y="312" fill="#FFD3B0" font-size="44" font-weight="700" letter-spacing="1">Everafter</text>
+  <text x="60" y="345" fill="#E8C9C9" font-size="17" font-family="'Helvetica Neue', Arial, sans-serif" letter-spacing="3">MATCHMAKING &amp; CONNECTION PLATFORM</text>
+</svg>
